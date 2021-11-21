@@ -10,6 +10,11 @@
     margin: auto;
 }
 
+img {
+height:auto;
+width:auto;
+}
+
 /* navabar css start */
  .logo img {
     height: 55px;
