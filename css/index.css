@@ -5,6 +5,10 @@
     font-family: 'Poppins', sans-serif;
     
 }
+.full {
+    width: 90%;
+    margin: auto;
+}
 
 /* navabar css start */
  .logo img {
@@ -27,11 +31,14 @@
     
 } 
 
+
 #navbar a {
     color: #939699;
     margin-left: 5px;
     padding: 10px;
     text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
     
 } 
 
@@ -232,5 +239,6 @@ button {
 .box8 {
     display: inline-block;
     width: 40%;
+    
     margin-left: 100px;
 }
