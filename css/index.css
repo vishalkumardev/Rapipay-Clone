@@ -81,7 +81,7 @@
      margin-top: 100px;
 }
 
-p {
+.container p {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -214,7 +214,7 @@ button {
 
 .bg7{
     margin-top: 70px;
-    height: 500px;
+    
 }
 
 .box7 {
@@ -239,6 +239,48 @@ button {
 .box8 {
     display: inline-block;
     width: 40%;
-    
     margin-left: 100px;
+}
+ 
+/* background end css */
+
+
+.card {
+  display: flex;
+  margin: 100px auto;
+  box-sizing: border-box;
+}
+
+.card1 , .card3 {
+     background:#61BBC6;
+     width: 20%;
+     padding: 20px;
+     border-radius: 10px;
+     margin: 20px;
+     display: inline-block;
+}
+
+.card1 img, .card3 img, .card4 img, .card2 img {
+    position: relative;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.card1 h3 , .card3 h3, .card2 h3, .card4 h3 {
+    font-size: 18px;
+    color: white;
+}
+.card1 p , .card3 p ,.card4 p ,.card2 p {
+    font-size: 14px;
+    color: white;
+    margin-top: 10px;
+}
+
+.card2 , .card4 {
+    background:#F17595;
+    width: 20%;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    display: inline-block;
 }
